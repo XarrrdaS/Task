@@ -1,3 +1,6 @@
+.container{
+    max-width: 100%;
+}
 .image img{
     width: 80%;
 }
@@ -36,8 +39,8 @@
     gap: 1rem;
 }
 .color-change-info button{
-    width: 45px; 
-    height: 45px;
+    width: 35px; 
+    height: 35px;
     color: white;
     border: none;
     border-radius: 50%;
@@ -81,9 +84,9 @@
     padding: 15px 30px;
     outline: none;
     border: none;
-    border-radius: 10px;
+    border-radius: 6px;
     color: white;
-    background-color: green;
+    background-color: #66CC66;
     cursor: pointer;
 }
 .cart-details button:active{
@@ -92,4 +95,44 @@
 .selected{
     outline: 3px solid rgb(0, 128, 115) !important;
     outline-offset: 3px;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .image img{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 992px){
+    .description{
+        margin: unset;
+    }
+    .image{
+        width: 50%;
+        float: left;
+    }
+    .informations{
+        width: 50%;
+        float: right;
+    }
+    .color-change-info{
+        justify-content: left;
+    }
+    .size-info{
+        justify-content: left;
+    }
+    .cart-details{
+        justify-content: left;
+        gap: 2rem;
+    }
+    .cart-details button{
+        padding: 15px 30px;
+    }
+    .image img{
+        max-height: 520px;
+        width: unset;
+        display: block;
+        float: right;
+        margin-right: 100px;
+    }
 }
