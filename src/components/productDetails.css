@@ -135,4 +135,8 @@
         float: right;
         margin-right: 100px;
     }
+    .informations{
+        max-width: 600px;
+        float: left;
+    }
 }

@@ -82,7 +82,7 @@ function ProductDetails() {
                       className={selectedColor === 'green' ? 'selected' : ''}>
                     </button>
                 </div>
-                <p>Size of pocket</p>
+                <p>Pocket size</p>
                 <div className="size-info">
                     <button 
                       id='small' 
