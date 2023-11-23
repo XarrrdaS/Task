@@ -19,6 +19,7 @@ function ProductDetails() {
             // therefore new URL would be created and new data about the specific variant would be fetched 
 
             // url += `/${size}/${color}`
+            
           }
           const response = await fetch(url);
           if (!response.ok) {
