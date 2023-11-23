@@ -90,7 +90,7 @@
     cursor: pointer;
 }
 .cart-details button:active{
-    background-color: rgb(2, 86, 2);
+    background-color: #50a450;
 }
 .selected{
     outline: 3px solid rgb(0, 128, 115) !important;
